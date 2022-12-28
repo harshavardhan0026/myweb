@@ -26,15 +26,11 @@
 	</dependencies>
 	
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
-		</repository>
+			  <snapshotRepository>
+         <id>deployment</id>
+         <name>Your Snapshot Repository</name>
+         <url>http://35.183.123.2:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
   	</distributionManagement>
 	
 	<pluginRepositories>
